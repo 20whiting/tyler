@@ -39,3 +39,5 @@ class MapForm(forms.Form):
 
     def clean_tile_url(self):
         return self.check('tile_url', 'http://[abc].tile.openstreetmap.org/{zoom}/{x}/{y}.png')
+
+   #I am commenting a line of code for a project :)
